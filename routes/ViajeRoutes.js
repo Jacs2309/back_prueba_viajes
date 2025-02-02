@@ -7,6 +7,7 @@ export const routerViaje = (modelo)=>{
 
     viajeRouter.get('/',controlador.getAll)
     viajeRouter.get('/:id',controlador.getOneByID)
+    viajeRouter.get('/:id',controlador.getOneByID)
     viajeRouter.delete('/:id',controlador.delete)
     viajeRouter.post('/',controlador.create)
     viajeRouter.put('/:id',controlador.update)
