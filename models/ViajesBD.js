@@ -2,10 +2,23 @@ import mongoose,{model} from "mongoose";
 
 const viajeS = mongoose.Schema(
     {
-        id:Number,
-        destino: String,
-        pasajeros: Number,
-        tarifa: Number
+        id: {
+            type: Number,
+            unique: true, // Esto asegura que el id sea único
+            required: true // Esto hace que el campo sea obligatorio
+        },
+        destino: {
+            type: String,
+            required: false
+        },
+        pasajeros: {
+            type: Number,
+            required: false
+        },
+        tarifa: {
+            type: Number,
+            required: false
+        }
     },
     {
         versionkey: false
