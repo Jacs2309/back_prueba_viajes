@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "description": "Prueba",
   "main": "index.js",
-<<<<<<< HEAD
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
-=======
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
->>>>>>> f8e2d09aea4c98600a86ad01a219bdca2b196a55
   },
   "author": "Julian Cañas",
   "license": "ISC",
@@ -22,11 +16,7 @@
     "express": "^4.21.2",
     "mongoose": "^8.9.6",
     "nodemon": "^3.1.9",
-<<<<<<< HEAD
     "react-router-dom": "^7.1.3",
     "zod": "^3.24.1"
-=======
-    "react-router-dom": "^7.1.3"
->>>>>>> f8e2d09aea4c98600a86ad01a219bdca2b196a55
   }
 }
